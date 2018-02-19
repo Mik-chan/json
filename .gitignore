@@ -1,14 +1,23 @@
 json_unit
 json_benchmarks
-
+json_benchmarks_simple
 fuzz-testing
 
 *.dSYM
+*.o
+*.gcno
+*.gcda
 
-working
+build
+build_coverage
 
-html
+doc/xml
+doc/html
 me.nlohmann.json.docset
 
-android
-doc/xml
+benchmarks/files/numbers/*.json
+
+.idea
+cmake-build-debug
+
+test/test-*
